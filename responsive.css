@@ -1,0 +1,56 @@
+@media only screen and (max-width: 992px) {
+  #menu_toggler {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .content_area h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  #banner {
+    background-position: left bottom;
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    margin: 50px 0;
+  }
+
+  .inner_banner {
+    flex-direction: column;
+  }
+
+  .banner_area {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .content_area {
+    order: 2;
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .content_area h6 {
+    max-width: 362px;
+  }
+  .content_area h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .hero_btn_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
