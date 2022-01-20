@@ -59,6 +59,7 @@
   .client_img {
     flex-wrap: wrap;
   }
+  
   .client_img img{
     margin: 20px 0px;
   }
