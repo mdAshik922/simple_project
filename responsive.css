@@ -38,6 +38,7 @@
     width: 100%;
     padding: 0 15px;
   }
+  
   .client_img {
     flex-wrap: wrap;
   }
@@ -47,7 +48,7 @@
   .content_area h6 {
     max-width: 362px;
   }
-  
+
   .content_area h1 {
     font-size: 36px;
     line-height: 44px;
