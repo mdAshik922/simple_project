@@ -208,3 +208,12 @@ width: 100px;
 margin: 0px 15px;
 }
 
+.container{
+  display: flex;
+ flex-direction: row;
+flex-wrap: wrap;
+}
+
+#smart_search{
+background-image: url("./images/Shape.png");
+}
