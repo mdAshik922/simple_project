@@ -212,8 +212,37 @@ margin: 0px 15px;
   display: flex;
  flex-direction: row;
 flex-wrap: wrap;
+
 }
 
 #smart_search{
-background-image: url("./images/Shape.png");
+  background-image: url("./images/Shape.png");
+  background-image: url("./images/shape2.png");
+
 }
+#jackpots{
+  font-size: 40px;
+line-height: 50px;
+color: #242f51;
+font-weight: 600;
+width: 10%;
+
+}
+
+#rise{
+  font-size: 16px;
+line-height: 26px;
+color: #616368;
+font-weight: 400;
+
+}
+
+.Smart_jackpots{
+display: inline;
+
+}
+
+.text{
+
+}
+
