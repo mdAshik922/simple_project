@@ -38,6 +38,9 @@
     width: 100%;
     padding: 0 15px;
   }
+  .client_img {
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 570px) {
@@ -52,5 +55,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .client_img {
+    flex-wrap: wrap;
+  }
+  .client_img img{
+    margin: 20px 0px;
   }
 }
