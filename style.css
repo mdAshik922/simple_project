@@ -260,3 +260,8 @@ margin-top: 6%;
   margin: 5% 3%;
   
 }
+
+.Designed_built{
+  display: grid;
+  grid-template-columns: 2fr  2fr;
+}
