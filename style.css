@@ -265,3 +265,9 @@ margin-top: 6%;
   display: grid;
   grid-template-columns: 2fr  2fr;
 }
+
+.information{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  margin: 5% ;
+}
