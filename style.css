@@ -254,3 +254,9 @@ grid-template-columns: 2fr 2fr;
 margin-top: 6%;
 }
 
+.some_info{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  margin: 5% 3%;
+  
+}
