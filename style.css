@@ -328,3 +328,15 @@ padding: 10px;
 width: 60px;
  height: 60px;
 }
+
+/*---------
+           footer
+                  -------- */
+.has_tag{
+  font-size: 30px;
+letter-spacing: 23px;
+line-height: 44px;
+color: #273043;
+font-weight: 400;
+font-family: "Font Awesome 5 Brands";
+}
