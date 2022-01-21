@@ -186,237 +186,251 @@ header {
   width: 100%;
 }
 
-#client{
-margin: 100px 0px;
+#client {
+  margin: 100px 0px;
 }
 
-#client h4{
+#client h4 {
   text-align: center;
   font-size: 16px;
-line-height: 28px;
-color: #242f51;
-font-weight: 400;
+  line-height: 28px;
+  color: #242f51;
+  font-weight: 400;
 }
 
 .client_img {
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-.client_img img{
-width: 100px;
-margin: 0px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.semple_info{
+.client_img img {
+  width: 100px;
+  margin: 0px 15px;
+}
+
+.semple_info {
   display: flex;
   margin: 5% 0%;
 }
-.semple_info_text{
+
+.semple_info_text {
   margin-left: 2%;
 }
 
-.semple_text_info{
-  padding-right: 40%; 
-   font-size: small;
+.semple_text_info {
+  padding-right: 40%;
+  font-size: small;
 }
 
-.learn{
+.learn {
   width: 170px;
   height: 57px;
   border-radius: 29px;
   background-color: #2500f9;
   color: #e2eaed;
 }
-.container{
+
+.container {
   display: flex;
- flex-direction: row;
-flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 }
 
-#smart_search{
+#smart_search {
   background-image: url("./images/");
-  
+
 
 }
-#jackpots{
+
+#jackpots {
   font-size: 40px;
-line-height: 50px;
-color: #242f51;
-font-weight: 600;
-padding-left: 10%;
-padding-right: 10%;
-margin-left: 5%;
-margin-right: 3%;
+  line-height: 50px;
+  color: #242f51;
+  font-weight: 600;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 5%;
+  margin-right: 3%;
 
 }
 
-#rise{
+#rise {
   font-size: 16px;
-line-height: 26px;
-color: #616368;
-font-weight: 400;
-padding-left: 10%;
-padding-right: 10%;
-margin-left: 5%;
-margin-right: 3%;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 5%;
+  margin-right: 3%;
 }
 
-.Smart_jackpots{
-display: inline;
+.Smart_jackpots {
+  display: inline;
 }
 
-.text{
-display: grid;
-grid-template-columns: 2fr 2fr;
-margin-top: 6%;
+.text {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-top: 6%;
 }
 
-.some_info{
+.some_info {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   margin: 5% 3%;
 }
 
-.Designed_built{
+.Designed_built {
   display: grid;
-  grid-template-columns: 2fr  2fr;
+  grid-template-columns: 2fr 2fr;
 }
 
-.information{
+.information {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   margin: 5% 10%;
   gap: 3%;
 }
-.information img{
- width: 100%;
- 
+
+.information img {
+  width: 100%;
+
 }
-.blood{
- background-color: rgba(236, 148, 155, 0.856);
+
+.blood {
+  background-color: rgba(236, 148, 155, 0.856);
   border-radius: 50%;
-padding: 10px;
-width: 60px;
- height: 60px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
 }
-.award{
- background-color: rgba(151, 196, 233, 0.856);
+
+.award {
+  background-color: rgba(151, 196, 233, 0.856);
   border-radius: 50%;
-padding: 10px;
-width: 60px;
- height: 60px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
 }
-.cloud_storage{
- background-color: rgba(243, 231, 178, 0.856);
+
+.cloud_storage {
+  background-color: rgba(243, 231, 178, 0.856);
   border-radius: 50%;
-padding: 10px;
-width: 60px;
- height: 60px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
 }
-.Customization{
- background-color: rgba(171, 236, 236, 0.856);
+
+.Customization {
+  background-color: rgba(171, 236, 236, 0.856);
   border-radius: 50%;
-padding: 10px;
-width: 60px;
- height: 60px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
 }
-.ux_planning{
- background-color: rgba(148, 189, 236, 0.856);
+
+.ux_planning {
+  background-color: rgba(148, 189, 236, 0.856);
   border-radius: 50%;
-padding: 10px;
-width: 60px;
- height: 60px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
 }
-.coustomer_support{
- background-color: rgba(236, 205, 148, 0.856);
+
+.coustomer_support {
+  background-color: rgba(236, 205, 148, 0.856);
   border-radius: 50%;
-padding: 10px;
-width: 60px;
- height: 60px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
 }
 
 
-.see_all{
+.see_all {
   width: 170px;
   height: 57px;
   border-radius: 29px;
   background-color: #2500f9;
   color: #e2eaed;
+  margin-bottom: 10px;
 }
 
-.feature{
+.feature {
   background-image: url("./images/feature page.psd.png");
   background-size: contain;
   background-position: bottom right;
-background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+
 }
 
-.feature_manage{
+.feature_manage {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  max-width: 640px;
  
-
 }
 
-.feature_manage h3{
+.feature_manage h3 {
   font-size: 20px;
-line-height: 58px;
-color: #242f51;
-font-weight: 600;
-max-width: 330px;
-margin-bottom: 30px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+  max-width: 330px;
+  margin-bottom: 30px;
 }
 
-.feature_manage p{
+.feature_manage p {
   font-size: 16px;
-line-height: 26px;
-color: #616368;
-font-weight: 400;
-max-width: 392px;
-margin-bottom: 60px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 392px;
+  margin-bottom: 40px;
 }
 
-.download_section{
-border-top: 1px solid rgb(207, 204, 204);
+.download_section {
+  border-top: 1px solid rgb(207, 204, 204);
 }
 
-.download{
+.download {
   display: flex;
- margin-left: 1%;
+  margin-left: 1%;
 }
 
-.app{
+.app {
   margin-top: 4%;
 }
 
 /*---------
            footer
                   -------- */
-footer{
+footer {
   background-color: black;
 }
-   footer img{
-    display: block;
+
+footer img {
+  display: block;
   margin: 4% auto;
   padding-top: 5%;
-   }       
+}
 
-.some_link{
+.some_link {
   text-align: center;
   color: #ffffff;
   text-decoration: none;
 }
 
- .has_tag{
+.has_tag {
   font-size: 30px;
-letter-spacing: 23px;
-line-height: 44px;
-color: #f3f5fa;
-font-weight: 400;
-font-family: "Font Awesome 5 Brands";
-text-align: center;
+  letter-spacing: 23px;
+  line-height: 44px;
+  color: #f3f5fa;
+  font-weight: 400;
+  font-family: "Font Awesome 5 Brands";
+  text-align: center;
 }

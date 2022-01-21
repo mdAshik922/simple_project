@@ -42,6 +42,31 @@
   .client_img {
     flex-wrap: wrap;
   }
+
+  .feature_manage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 240px;
+  }
+  .feature_manage h3 {
+    font-size: 10px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: bolder;
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .feature_manage p {
+    font-size: 12px;
+    line-height: 13px;
+    color: #616368;
+    font-weight: bold;
+    max-width: 100px;
+    margin-bottom: 30px;
+  }
+
 }
 
 @media only screen and (max-width: 570px) {
