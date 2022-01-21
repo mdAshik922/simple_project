@@ -208,6 +208,10 @@ width: 100px;
 margin: 0px 15px;
 }
 
+.performance{
+  display: flex;
+
+}
 .container{
   display: flex;
  flex-direction: row;
@@ -216,8 +220,8 @@ flex-wrap: wrap;
 }
 
 #smart_search{
-  background-image: url("./images/Shape.png");
-  background-image: url("./images/shape2.png");
+  background-image: url("./images/");
+  
 
 }
 #jackpots{
@@ -269,5 +273,15 @@ margin-top: 6%;
 .information{
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  margin: 5% ;
+  margin: 5% 10%;
+  gap: 3%;
+}
+.information img{
+ width: 100%;
+ 
+}
+.blood{
+  border: 1px solid green;
+  border-radius: 50%;
+padding: 10px;
 }
