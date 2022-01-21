@@ -346,6 +346,21 @@ width: 60px;
   color: #e2eaed;
 }
 
+.feature{
+  background-image: url("./images/feature page.psd.png");
+  background-size: contain;
+  background-position: bottom right;
+background-repeat: no-repeat;
+  
+}
+
+.feature_manage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ 
+  gap: 3%;
+}
+
 .download_section{
 border-top: 1px solid rgb(207, 204, 204);
 }
