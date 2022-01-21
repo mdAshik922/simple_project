@@ -356,9 +356,28 @@ background-repeat: no-repeat;
 
 .feature_manage{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
  
-  gap: 3%;
+
+}
+
+.feature_manage h3{
+  font-size: 20px;
+line-height: 58px;
+color: #242f51;
+font-weight: 600;
+max-width: 330px;
+margin-bottom: 30px;
+}
+
+.feature_manage p{
+  font-size: 16px;
+line-height: 26px;
+color: #616368;
+font-weight: 400;
+max-width: 392px;
+margin-bottom: 60px;
 }
 
 .download_section{
