@@ -269,10 +269,7 @@ margin-top: 6%;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   margin: 5% 3%;
-  
 }
-
-
 
 .Designed_built{
   display: grid;
@@ -290,7 +287,44 @@ margin-top: 6%;
  
 }
 .blood{
-  border: 1px solid green;
+ background-color: rgba(236, 148, 155, 0.856);
   border-radius: 50%;
 padding: 10px;
+width: 60px;
+ height: 60px;
+}
+.award{
+ background-color: rgba(151, 196, 233, 0.856);
+  border-radius: 50%;
+padding: 10px;
+width: 60px;
+ height: 60px;
+}
+.cloud_storage{
+ background-color: rgba(243, 231, 178, 0.856);
+  border-radius: 50%;
+padding: 10px;
+width: 60px;
+ height: 60px;
+}
+.Customization{
+ background-color: rgba(171, 236, 236, 0.856);
+  border-radius: 50%;
+padding: 10px;
+width: 60px;
+ height: 60px;
+}
+.ux_planning{
+ background-color: rgba(148, 189, 236, 0.856);
+  border-radius: 50%;
+padding: 10px;
+width: 60px;
+ height: 60px;
+}
+.coustomer_support{
+ background-color: rgba(236, 205, 148, 0.856);
+  border-radius: 50%;
+padding: 10px;
+width: 60px;
+ height: 60px;
 }
