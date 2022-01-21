@@ -220,6 +220,14 @@ margin: 0px 15px;
   padding-right: 40%; 
    font-size: small;
 }
+
+.learn{
+  width: 170px;
+  height: 57px;
+  border-radius: 29px;
+  background-color: #2500f9;
+  color: #e2eaed;
+}
 .container{
   display: flex;
  flex-direction: row;
@@ -329,14 +337,52 @@ width: 60px;
  height: 60px;
 }
 
+
+.see_all{
+  width: 170px;
+  height: 57px;
+  border-radius: 29px;
+  background-color: #2500f9;
+  color: #e2eaed;
+}
+
+.download_section{
+border-top: 1px solid rgb(207, 204, 204);
+}
+
+.download{
+  display: flex;
+ margin-left: 1%;
+}
+
+.app{
+  margin-top: 4%;
+}
+
 /*---------
            footer
                   -------- */
-.has_tag{
+footer{
+  background-color: black;
+}
+   footer img{
+    display: block;
+  margin: 4% auto;
+  padding-top: 5%;
+   }       
+
+.some_link{
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ .has_tag{
   font-size: 30px;
 letter-spacing: 23px;
 line-height: 44px;
-color: #273043;
+color: #f3f5fa;
 font-weight: 400;
 font-family: "Font Awesome 5 Brands";
+text-align: center;
 }
