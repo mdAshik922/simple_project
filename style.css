@@ -203,27 +203,35 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 }
-
 .client_img img{
 width: 100px;
 margin: 0px 15px;
 }
 
-.some_info{
+.semple_info{
   display: flex;
+  margin: 5% 0%;
+}
+.semple_info_text{
+  margin-left: 2%;
 }
 
+.semple_text_info{
+  padding-right: 40%; 
+   font-size: small;
+}
 .container{
   display: flex;
  flex-direction: row;
 flex-wrap: wrap;
+
 }
 
 #smart_search{
   background-image: url("./images/");
+  
 
 }
-
 #jackpots{
   font-size: 40px;
 line-height: 50px;
@@ -233,6 +241,7 @@ padding-left: 10%;
 padding-right: 10%;
 margin-left: 5%;
 margin-right: 3%;
+
 }
 
 #rise{
@@ -260,7 +269,10 @@ margin-top: 6%;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   margin: 5% 3%;
+  
 }
+
+
 
 .Designed_built{
   display: grid;
@@ -273,11 +285,10 @@ margin-top: 6%;
   margin: 5% 10%;
   gap: 3%;
 }
-
 .information img{
- width: 100%; 
+ width: 100%;
+ 
 }
-
 .blood{
   border: 1px solid green;
   border-radius: 50%;
