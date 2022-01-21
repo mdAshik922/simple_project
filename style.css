@@ -225,7 +225,10 @@ flex-wrap: wrap;
 line-height: 50px;
 color: #242f51;
 font-weight: 600;
-width: 10%;
+padding-left: 10%;
+padding-right: 10%;
+margin-left: 5%;
+margin-right: 3%;
 
 }
 
@@ -234,7 +237,10 @@ width: 10%;
 line-height: 26px;
 color: #616368;
 font-weight: 400;
-
+padding-left: 10%;
+padding-right: 10%;
+margin-left: 5%;
+margin-right: 3%;
 }
 
 .Smart_jackpots{
@@ -243,6 +249,7 @@ display: inline;
 }
 
 .text{
-
+display: grid;
+grid-template-columns: 2fr 2fr;
 }
 
